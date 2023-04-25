@@ -23,7 +23,7 @@ export default function EducationScreen({navigation}) {
     }).start();
   },[fadeAnim]);
   return (
-    <LinearGradient colors={['#4F4E52', '#4F4E52']} style={styles.mainContainer}>
+    <LinearGradient colors={['#69686D', '#69686D']} style={styles.mainContainer}>
     <ScrollView showsVerticalScrollIndicator={false}>
         <View style={{marginLeft: 20, marginTop: 40, alignSelf: 'center'}}>
           <Text style={styles.About}>Technologies & Services</Text>
@@ -31,7 +31,7 @@ export default function EducationScreen({navigation}) {
         
         <View style={{alignSelf: 'center', marginTop: 30, marginBottom: 50}}>
         <Animated.View style={{opacity: fadeAnim}}>
-        <LinearGradient colors={['#69686D', '#69686D']} style={styles.cardView}>
+        <LinearGradient colors={['#4F4E52', '#4F4E52']} style={styles.cardView}>
           <Image source={require('../assets/healthcare.png')} 
                 style={styles.image} />
           <Text style={styles.cardHeading}>HealthCare</Text>
@@ -43,7 +43,7 @@ export default function EducationScreen({navigation}) {
         </Animated.View>
 
         <Animated.View style={{opacity: fadeAnim}}>
-        <LinearGradient colors={['#69686D', '#69686D']} style={styles.cardView}>
+        <LinearGradient colors={['#4F4E52', '#4F4E52']} style={styles.cardView}>
         <Image source={require('../assets/web-design.png')} 
                 style={styles.image} />
           <Text style={styles.cardHeading}>Website Development</Text>
@@ -55,7 +55,7 @@ export default function EducationScreen({navigation}) {
 
 
         <Animated.View style={{opacity: fadeAnim}}>
-        <LinearGradient colors={['#69686D', '#69686D']} style={styles.cardView}>
+        <LinearGradient colors={['#4F4E52', '#4F4E52']} style={styles.cardView}>
         <Image source={require('../assets/delivery.png')} 
                 style={styles.image} />
           <Text style={styles.cardHeading}>Logistics</Text>
@@ -66,7 +66,7 @@ export default function EducationScreen({navigation}) {
 
 
         <Animated.View style={{opacity: fadeAnim}}>
-        <LinearGradient colors={['#69686D', '#69686D']} style={styles.cardView}>
+        <LinearGradient colors={['#4F4E52', '#4F4E52']} style={styles.cardView}>
         <Image source={require('../assets/app-development.png')} 
                 style={styles.image} />
           <Text style={styles.cardHeading}>Mobile Apps Development</Text>
@@ -76,7 +76,7 @@ export default function EducationScreen({navigation}) {
         </Animated.View>
 
         <Animated.View style={{opacity: fadeAnim}}>
-        <LinearGradient colors={['#69686D', '#69686D']} style={styles.cardView}>
+        <LinearGradient colors={['#4F4E52', '#4F4E52']} style={styles.cardView}>
         <Image source={require('../assets/crm.png')} 
                 style={styles.image} />
           <Text style={styles.cardHeading}>CRM</Text>
@@ -85,7 +85,7 @@ export default function EducationScreen({navigation}) {
         </Animated.View>
 
         <Animated.View style={{opacity: fadeAnim}}>
-        <LinearGradient colors={['#69686D', '#69686D']} style={styles.cardView}>
+        <LinearGradient colors={['#4F4E52', '#4F4E52']} style={styles.cardView}>
         <Image source={require('../assets/internet-of-things.png')} 
                 style={styles.image} />
           <Text style={styles.cardHeading}>IOT - Internet Of Things</Text>
@@ -95,7 +95,7 @@ export default function EducationScreen({navigation}) {
         </Animated.View>
 
         <Animated.View style={{opacity: fadeAnim}}>
-        <LinearGradient colors={['#69686D', '#69686D']} style={styles.cardView}>
+        <LinearGradient colors={['#4F4E52', '#4F4E52']} style={styles.cardView}>
         <Image source={require('../assets/deal.png')} 
                 style={styles.image} />
           <Text style={styles.cardHeading}>RealEstate</Text>
@@ -105,7 +105,7 @@ export default function EducationScreen({navigation}) {
         </Animated.View>
 
         <Animated.View style={{opacity: fadeAnim}}>
-        <LinearGradient colors={['#69686D', '#69686D']} style={styles.cardView}>
+        <LinearGradient colors={['#4F4E52', '#4F4E52']} style={styles.cardView}>
         <Image source={require('../assets/chain.png')} 
                 style={styles.image} />
           <Text style={styles.cardHeading}>BlockChain</Text>
@@ -115,7 +115,7 @@ export default function EducationScreen({navigation}) {
         </Animated.View>
 
         <Animated.View style={{opacity: fadeAnim}}>
-        <LinearGradient colors={['#69686D', '#69686D']} style={styles.cardView}>
+        <LinearGradient colors={['#4F4E52', '#4F4E52']} style={styles.cardView}>
         <Image source={require('../assets/shopping.png')} 
                 style={styles.image} />
           <Text style={styles.cardHeading}>ECommerce</Text>
@@ -125,7 +125,7 @@ export default function EducationScreen({navigation}) {
         </Animated.View>
 
         <Animated.View style={{opacity: fadeAnim}}>
-        <LinearGradient colors={['#69686D', '#69686D']} style={styles.cardView}>
+        <LinearGradient colors={['#4F4E52', '#4F4E52']} style={styles.cardView}>
         <Image source={require('../assets/chatbot.png')} 
                 style={styles.image} />
           <Text style={styles.cardHeading}>Chat Bots & VAC</Text>
@@ -135,7 +135,7 @@ export default function EducationScreen({navigation}) {
         </Animated.View>
        
         <Animated.View style={{opacity: fadeAnim}}>
-        <LinearGradient colors={['#69686D', '#69686D']} style={styles.cardView}>
+        <LinearGradient colors={['#4F4E52', '#4F4E52']} style={styles.cardView}>
         <Image source={require('../assets/devops.png')} 
                 style={styles.image} />
           <Text style={styles.cardHeading}>Cloud & DevOps</Text>
@@ -145,7 +145,7 @@ export default function EducationScreen({navigation}) {
         </Animated.View>
 
         <Animated.View style={{opacity: fadeAnim}}>
-        <LinearGradient colors={['#69686D', '#69686D']} style={styles.cardView}>
+        <LinearGradient colors={['#4F4E52', '#4F4E52']} style={styles.cardView}>
         <Image source={require('../assets/e-learning.png')} 
                 style={styles.image} />
           <Text style={styles.cardHeading}>ELearning</Text>

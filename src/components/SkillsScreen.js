@@ -32,7 +32,7 @@ const handleVicePing = async () => {
   await Linking.openURL('https://voice-ping.com')
 }
   return (
-    <LinearGradient colors={['#69686D', '#69686D']} style={{flex: 1, width: windowWidth}}>
+    <LinearGradient colors={['#4F4E52', '#4F4E52']} style={{flex: 1, width: windowWidth}}>
       <ScrollView showsVerticalScrollIndicator={false}>
         <View style={{marginTop: 40}}>
           <Text style={styles.mainHeading}>My Latest Projects</Text>
@@ -81,8 +81,8 @@ const handleVicePing = async () => {
 
           <TouchableOpacity onPress={() =>  Linking.openURL('https://squadminds.com/portfolio')}>
           <LinearGradient colors={['#FDB777', '#FF9900']}
-            style={{height: 45, borderRadius: 10, width: 120, marginTop: 15, alignSelf: 'center'}}>
-            <Text style={styles.touchText}> More...</Text>
+            style={{height: 45, borderRadius: 10, width: 120, marginTop: 20, alignSelf: 'center'}}>
+            <Text style={styles.touchText}>For More ...</Text>
             </LinearGradient>
           </TouchableOpacity>
         </View>

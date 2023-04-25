@@ -63,9 +63,10 @@ export default function HomeScreen() {
         </View>
       </View>
       <AboutScreen />
-      <EducationScreen />
       <SkillsScreen />
+      <EducationScreen />
       <ContactScreen />
+      
       </ScrollView>
     </LinearGradient>
   );
